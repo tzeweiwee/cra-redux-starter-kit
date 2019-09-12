@@ -1,0 +1,27 @@
+@import '../../theme/colors.scss';
+@import '../../theme/layout.scss';
+@import '../../theme/typo.scss';
+
+.container {
+    padding: $grid-tiny;
+}
+
+.button {
+    margin: $grid-tiny;
+    height: 40px;
+    min-width: 80px;
+    font-size: $font-standard;
+    letter-spacing: 0.5px;
+    font-weight: $font-weight-semi;
+}
+
+.standardButton {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+.alertButton {
+    background-color: $alert-color;
+    color: $white-color;
+}
+
